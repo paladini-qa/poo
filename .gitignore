@@ -1,0 +1,75 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+*.g.*
+*.designer.cs
+*.designer.vb
+*.g.i.cs
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+*.tlog
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Other
+*.dbmdl
+*.pdb
+*.mdb
+*.opendb
+*.pidb
+*.svclog
+*.scc
+*.ilk
+*.obj
+*.idb
+*.class
+*.psess
+*.vspx
+*.vsp
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.trx
+*.userprefs
