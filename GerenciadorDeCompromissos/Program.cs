@@ -1,10 +1,35 @@
 ﻿using ConsoleApp.Modelos;
 
-//Compromisso compromisso = new Compromisso();
-//var compromisso = new Compromisso();
-
 Compromisso compromisso = new();
-compromisso.Data = DateTime.Now.Date;
 
-Console.Write(compromisso.Data);
-Console.Write(compromisso.DataBR);
+Console.WriteLine("Vamos registrar um compromisso");
+
+Console.Write("Digite a data do compromisso: ");
+
+while (true)
+{
+  try
+  {
+    compromisso.Data = Console.ReadLine();
+    break;
+  }
+  catch (Exception e)
+  {
+    Console.Write($"Erro: {e.Message}\nDigite uma nova data: ");
+  }
+}
+
+Console.Write("Digite a hora do compromisso: ");
+
+while (true)
+{
+  try
+  {
+    compromisso.Hora = Console.ReadLine();
+    break;
+  }
+  catch (Exception e)
+  {
+    Console.Write($"Erro: {e.Message}\nDigite uma nova hora: ");
+  }
+}
